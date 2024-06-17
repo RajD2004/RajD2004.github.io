@@ -21,7 +21,7 @@ author: Sairaj Dhullipalla
 
 navbar-links:
   About Me: "aboutme"
-  My Projects:
+  My Projects: "myProj"
    # - Beautiful Jekyll: #"https://beautifuljekyll.com"
    # - Learn markdown: #"https://www.markdowntutorial.com/"
   #Author's home: #"https://deanattali.com"
@@ -32,7 +32,9 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
+#avatar: "/assets/img/avatar-icon.png"
+
+avatar: "/assets/img/spartan.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
