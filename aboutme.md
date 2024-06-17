@@ -29,3 +29,4 @@ My name is Sairaj (Raj) Dhullipalla. I am a junior at Michigan State University,
 * Doing a Bachelor's of Engineering in Computer Science from Michigan State University 
 * * Current CGPA: 3.2
 * * Credits Completed ~ 60
+* * The course work I have completed includes CSE 231 (python), CSE 260 (Discrete Mathematics), CSE 232 (C++), PHY 183 (Mechanics), MTH 231 (Multivariable Calculus), PHY 184 (Electromagnetism), alongside humanities, social sciences, and writing
