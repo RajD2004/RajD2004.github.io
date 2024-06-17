@@ -1,0 +1,44 @@
+12.5 Notes:
+
+- v1 and v2 are proportional by k if each corresponding component is proportional by k
+- Example: L1: (x-2)/1 = (y-3)/-2 = (z-1)/-3
+	   L2: (x-3) = (y+4)/3 = (z-2)/-7
+		v1 = <1,-2,-3>   v2: <1,3,-7> v2 is not kv1, so they're not parallel vectors 
+		
+
+		write as parametric equation (L1): t = (x-2)/1  x = 2 + t
+					            t = (y-3)/-2  y = 3 - 2t
+						    t = (z-1)/-3 z = 1 - 3t
+
+			
+		write parametric equations (L2): x = 3 + s
+						 y = 3s - 4
+						 z = 2- 7s
+
+		solve for s and t by making the equations equal or whatever, the solution to this system of equations will be the point of intersection for 		the 2 lines. Plug in values in the system and see if they hold for both lines for x, y, and z, if they work, the lines intersect, otherwise 
+		they don't. 
+
+		Answer: L1 intersects with L2 when t = 2 and s = 1; point of intersection (plug in s and t) = (4, -1, -5)
+
+
+Planes:
+
+- Eqution of a plane is determined by a point Po(xo, yo, zo) and a normal vector n = <a, b, c>. Po can be any point of the plane, a normal vector is perpendicular to the plane 
+- Equations of the plane: 1) Vector equation: n ⋅ (r - r0) = 0, so <a, b, c> ⋅ <x-x0, y-y0, z-z0> = 0, therefore a(x - x0) + b(y - y0) + c(z - z0) = 0
+    example: n = <2, 3, 4> and Po(2, 4, -1), equation: 2(x - 2) + 3(y - 4) + 4(z + 1) = 0 or 2x + 3y + 4z = 12. Find x-intercept by setting y = 0 and z = 0 
+    and solving for x 
+- 2 planes are parallel if the normal vectors are parallel. So Planes P1 || P2 if n1 || n2. If n1 ⋅ n2 = 0, then P1 and P2 are perpendicular 
+- Example: Plane 1: x + 4y - 3z = 0 and plane 2: -3x + 6y + 7z = 0  n1 = <1, 4, -3> and n2 = <-3, 6, 7>, since n1 and n2 are not proportional, they're not parallel planes n1 ⋅ n2 = -3 + 24 + 21 = 0, since the dot product of the normal vectors is 0, the 2 vectors are perpendicular, hence the 2 planes are perpendicular. 
+- Example 5 pg 869: 1) n ⋅ (r - r0) = 0 and Ax + By + Cz + D = 0 Plane passes through points P(1, 3, 2) and Q(3, -1, 6) and R(5, 2, 0)
+	PQ = a = <3-1, -1-3, 6-2> = <2, -4, 4>  and b = PR = <5-1, 2-3, 0-2> = <4, -1, -2>  n = a x b = PQ x PR = <2, -4, 4> x <4, -1, -2> = <12, 20, -18>
+	equations of the plane: 12(x - x0) + 20(y - y0) - 18(z - z0) = 0: 12(x-1) + 20(y-3) - 18(z-2) = 0 so 12z + 20y - 8z = 110
+- Example: 2 planes x + y + z = 1 and x -2y + 3z = 1  n1 = <1, 1, 1> and n2 = <1, -2, 3>, theta = arccos((n1 ⋅ n2)/(magnitude(n1) * magnitude(n2))), so therefore theta is arccos(2/sqrt(42)) = 72.03 degrees. Now find the symmetric equations of the line of interesection btw the 2 planes. They must intersect since they're neither parallel, nor perpendicular. 2 planes: x + y + z = 1 and x - 2y + 3z = 1. Choose some point (z = 0): x + y = 1 and x - 2y = 1   y  = 0, so x = 1 point -> (1, 0, 0) is on the line of intersection. We need a vector v parallel to the line of intersection, now that we have a point,
+v = n1 x n2. Since L lies in both planes, it's perpendicular to both planes, hence both normal vectors. so v is perpendicular to both planes. v = n1 x n2 = <1, 1, 1> x <1, -2, 3> = <5, -2, -3> so equation of line: (x-1)/5 = y/-2 = z/-3
+- formula for distance D between point P1(x1, y1, z1) and plane Ax + By + Cz + D = 0. Formula: D = abs(Ax1 + By1 + Cz1 + D)/sqrt(a^2 + b^2 + c^2)
+- Example: Find the distance between 2 parallel planes: 10x + 2y + 2z = 5 and 5x + y + z = 1  so n1 = <10, 2, 2> and n2 = <5, 1, 1>. P1: Let y = 0 and z = 0 so x = 0.5 so P1 = (0.5, 0, 0), give point D = (2.5 + 0 + 0 - 1)/sqrt(27) = 3/2sqrt(27) = 1/2sqrt(3) = 0.29
+- Example: 2x - 3y + z = 6 and 4x - 6y + 2z = 8  when  y = 0 and z = 0 P1 = (3, 0, 0)  so D = (12-0+0-8)/sqrt(56) = 2/sqrt(14) = 0.53
+
+12.6 Notes:
+
+- Cylinder: surface consisting of lines that are parallel to a given line and pass through a given plane curve. Surface: z = x^2. When traces are moves against a missing variable, it is typically a cylinder. 
+
