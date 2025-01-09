@@ -54,3 +54,17 @@
 5. **Project 5: Graph Algorithms & A* Pathfinding**  
    - Implemented the **Graph ADT** with CSV, matrix, and plot representations. Created applications using **BFS**, **DFS**, and **A* search algorithms**, including a **Jumanji game board solver** and a **schedule conflict detector**.  
    [Download Project 5](/projects/Project06.zip)
+
+## Other Projects
+
+1. **Wordle Game Implementation**  
+   - Implemented a basic Wordle game in Python with a terminal UI to better understand data structures, including arrays, sets, dictionaries, and strings, alongside their supporting algorithms.  
+   [Download Wordle](/projects/wordle.zip)
+
+2. **Document Management Backend System**  
+   - Implemented a basic backend for a document storing, editing, retrieval, and logging website. Utilized a microservice architecture with the Flask framework for the server and SQLite for the database. Gained experience in building and debugging microservices and working with Docker.  
+   [Download Project](/projects/DockerMicroservices.zip)
+
+3. **Custom Tic-Tac-Toe Game**  
+   - Developed a customizable Tic-Tac-Toe game with variable board sizes. Implemented core logic in ARM64 assembly and handled game display (Terminal UI), basic input validation, and file operations in C. Gained experience working with and debugging low-level problems.  
+   [Download Project](/projects/tictac.zip)
